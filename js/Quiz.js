@@ -51,7 +51,7 @@ class Quiz {
         debugger;
         var correctAns = "2";
 //check the condition whether player answer and correct ans are equal
-if (player1.input2 === correctAns){
+if (correctAns === allContestants[plr].answer){
   //if equal fill with green 
 fill("green")
 }else{
@@ -59,13 +59,6 @@ fill("green")
   fill("red")
 }
 
-if (player2.input2 === correctAns){
-  //if equal fill with green 
-fill("green")
-}else{
-  //if not equal fill with red
-  fill("red")
-}
 
         display_Answers+=30;
         textSize(20);

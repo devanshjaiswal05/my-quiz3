@@ -22,7 +22,7 @@ function draw(){
   background("pink");
   if(contestantCount === 2){
     //update the quiz
-    quiz.update()
+    quiz.update(1)
   }
   if(gameState === 1){
     clear();
